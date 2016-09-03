@@ -1,4 +1,4 @@
-<img src='prog.png'>
+<img src='prog.PNG'>
 
 
 
