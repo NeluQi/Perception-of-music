@@ -5,22 +5,32 @@ namespace VK
 {
     public partial class Form1 : Form
     {
+        public static string getapi;
         public string usedurl;
-        public Form1()
+        public Form1(string[] args)
         {
             InitializeComponent();
-
-            
+            if (args.Length != 0)
+            {
+                string paramid = args[0];
+                string paramc = args[1];
+                getapi = "https://api.vk.com/method/wall.get.xml?owner_id=" + paramid + "&count=" + paramc;
+            }
+            else { getapi = "https://api.vk.com/method/wall.get.xml?owner_id=-35193970&count=100"; }
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            var doc = new XmlDocument();
-            doc.Load(new XmlTextReader("https://api.vk.com/method/wall.get.xml?owner_id=-35193970&count=100"));
 
-            var audioTags = doc.SelectNodes("//audio");
-            PlayList = axWindowsMediaPlayer1.playlistCollection.newPlaylist("vkPlayList");
-    
-                MessageBox.Show("Загрузка успешна");
+            try
+            {
+                var doc = new XmlDocument();
+                doc.Load(new XmlTextReader(getapi));
+
+                var audioTags = doc.SelectNodes("//audio");
+                PlayList = axWindowsMediaPlayer1.playlistCollection.newPlaylist("vkPlayList");
+
+
                 foreach (XmlNode audioTag in audioTags)
                 {
                     string artist = "";
@@ -35,11 +45,15 @@ namespace VK
 
                 }
                 axWindowsMediaPlayer1.currentPlaylist = PlayList;
+            }
 
+            catch {
+                MessageBox.Show("Ошибка загрузки");
+            }
         }
-
         WMPLib.IWMPPlaylist PlayList;
         WMPLib.IWMPMedia Media;
+           
 
 
         private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
@@ -60,7 +74,7 @@ namespace VK
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Специально для группы vk.com/pmpage \n Автор - vk.com/id208497682 \n Обвновления искать на github.com/egor2998067 \n Кода Вам без багов :)");
+            MessageBox.Show("Автор - vk.com/id208497682 \n Обвновления искать на github.com/egor2998067");
         }
 
         private void button2_Click(object sender, EventArgs e)

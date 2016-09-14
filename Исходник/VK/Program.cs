@@ -3,17 +3,19 @@ using System.Windows.Forms;
 
 namespace VK
 {
-    static class Program
+    public static class Program
     {
+
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(args));
+
         }
     }
 }
