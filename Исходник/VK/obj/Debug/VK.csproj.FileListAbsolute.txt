@@ -2,28 +2,31 @@ D:\Project_Work\Perception-of-music\Исходник\VK\bin\Debug\PM.exe.config
 D:\Project_Work\Perception-of-music\Исходник\VK\obj\Debug\Interop.WMPLib.dll
 D:\Project_Work\Perception-of-music\Исходник\VK\obj\Debug\AxInterop.WMPLib.dll
 D:\Project_Work\Perception-of-music\Исходник\VK\obj\Debug\VK.csproj.ResolveComReference.cache
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.exe.config
 D:\Project_Work\A_Project Developer\VK\obj\Debug\Interop.WMPLib.dll
 D:\Project_Work\A_Project Developer\VK\obj\Debug\AxInterop.WMPLib.dll
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.csproj.ResolveComReference.cache
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.exe.manifest
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.application
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.exe
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.pdb
-D:\Project_Work\A_Project Developer\VK\bin\Debug\asa-TZ\PM.resources.dll
-D:\Project_Work\A_Project Developer\VK\bin\Debug\ru\PM.resources.dll
 D:\Project_Work\A_Project Developer\VK\bin\Debug\Interop.WMPLib.dll
 D:\Project_Work\A_Project Developer\VK\bin\Debug\AxInterop.WMPLib.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.csprojResolveAssemblyReference.cache
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.Form1.resources
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.Properties.Resources.resources
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.Form1.asa-TZ.resources
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.Form1.ru.resources
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.csproj.GenerateResource.Cache
-D:\Project_Work\A_Project Developer\VK\obj\Debug\asa-TZ\PM.resources.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\ru\PM.resources.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.TrustInfo.xml
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.exe.manifest
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.application
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.exe
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.pdb
+D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.Design.dll
+D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.dll
+D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.Fonts.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.csprojResolveAssemblyReference.cache
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe.config
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe.manifest
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.application
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.pdb
+D:\Project_Work\A_Project Developer\VK\bin\Debug\asa-TZ\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK\bin\Debug\ru\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\asa-TZ\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\ru\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.TrustInfo.xml
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe.manifest
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.application
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.pdb

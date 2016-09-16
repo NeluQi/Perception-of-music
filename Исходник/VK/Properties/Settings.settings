@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VK.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="def" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Автор vk.com/id208497682
+
+Обновление искать на github.com/egor2998067/Perception-of-music
+
+PreHack.ru</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
