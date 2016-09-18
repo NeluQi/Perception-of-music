@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("PM")]
-[assembly: AssemblyDescription("Быстрый доступ к прекрасной музыки.")]
+[assembly: AssemblyTitle("PM [Music for coding]")]
+[assembly: AssemblyDescription("Музыка на фон.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Perception of music")]
 [assembly: AssemblyProduct("Perception of music")]
-[assembly: AssemblyCopyright("Copyright Egor [Nelu] © 2016")]
+[assembly: AssemblyCopyright("Nelu/Egor")]
 [assembly: AssemblyTrademark("Музыка, не лишённая красоты")]
 [assembly: AssemblyCulture("")]
 

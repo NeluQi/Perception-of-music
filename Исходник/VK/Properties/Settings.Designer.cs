@@ -25,14 +25,34 @@ namespace VK.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Автор vk.com/id208497682\r\n\r\nОбновление искать на github.com/egor2998067/Perceptio" +
-            "n-of-music\r\n\r\nPreHack.ru")]
-        public string def {
+        [global::System.Configuration.DefaultSettingValueAttribute(@"Вы пишите код? Вы рисуете? Играете?
+Тогда почему бы не включить прекрасную музыку на фон?
+
+Ограничения на кол-во постов - не более 100. Это ограничение VK.
+
+Музыка скачивается в папку Music.
+Она находится в той же директории, что и программа.
+
+
+Как запускать с параметром?
+Макет: ""Путь до программы"" ""Айди группы с -"" ""Кол-во постов загружать (Не более 100)""
+Пример: ""D:\VK\R1.exe"" -74779558 80
+Вы можете создать ярлык к программе и в его свойствах, после пути к файлу и дописать id группы кол-во постов.
+Если вы указали id, обязательно нужно указывать, какое кол-во постов загружать.
+
+Нашли баг? Пиши автору.
+
+Автор: vk.com/id208497682
+
+Обновление искать на github.com/egor2998067/Perception-of-music
+
+Для работы программы у Вас должен быть установлен windows media player.")]
+        public string ND {
             get {
-                return ((string)(this["def"]));
+                return ((string)(this["ND"]));
             }
             set {
-                this["def"] = value;
+                this["ND"] = value;
             }
         }
     }

@@ -30,3 +30,31 @@ D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe.manifest
 D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.application
 D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe
 D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.pdb
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.exe.config
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\Interop.WMPLib.dll
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\AxInterop.WMPLib.dll
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.csproj.ResolveComReference.cache
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.exe
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.pdb
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.exe.manifest
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.application
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.exe
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.pdb
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\asa-TZ\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\ru\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\MetroFramework.Design.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\MetroFramework.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\MetroFramework.Fonts.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\Interop.WMPLib.dll
+D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\AxInterop.WMPLib.dll
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.csprojResolveAssemblyReference.cache
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.Form1.resources
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.Properties.Resources.resources
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.Form1.asa-TZ.resources
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.Form1.ru.resources
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\VK.csproj.GenerateResource.Cache
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\asa-TZ\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\ru\PM.V2.resources.dll
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.TrustInfo.xml
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.exe.manifest
+D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.application

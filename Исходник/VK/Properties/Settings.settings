@@ -2,12 +2,29 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VK.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="def" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Автор vk.com/id208497682
+    <Setting Name="ND" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Вы пишите код? Вы рисуете? Играете?
+Тогда почему бы не включить прекрасную музыку на фон?
+
+Ограничения на кол-во постов - не более 100. Это ограничение VK.
+
+Музыка скачивается в папку Music.
+Она находится в той же директории, что и программа.
+
+
+Как запускать с параметром?
+Макет: "Путь до программы" "Айди группы с -" "Кол-во постов загружать (Не более 100)"
+Пример: "D:\VK\R1.exe" -74779558 80
+Вы можете создать ярлык к программе и в его свойствах, после пути к файлу и дописать id группы кол-во постов.
+Если вы указали id, обязательно нужно указывать, какое кол-во постов загружать.
+
+Нашли баг? Пиши автору.
+
+Автор: vk.com/id208497682
 
 Обновление искать на github.com/egor2998067/Perception-of-music
 
-PreHack.ru</Value>
+Для работы программы у Вас должен быть установлен windows media player.</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="PM.V2.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="PM.V3.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="music.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="PM.V2" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="PM.V2.exe" parameters="" />
+    <assemblyIdentity name="PM.V3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PM.V3.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>81JrINk0FxiVO2qeMU43B4hUgXEotM6QRT00zEduUig=</dsig:DigestValue>
+        <dsig:DigestValue>6l20Wh5go4lx7xRFi5YVXHfqlPYBR6Ek742rLUcDTAE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HlaVamsXbCsNBFZK3OfOclZpR7axzbgn36EbN1TQ2os=</dsig:DigestValue>
+        <dsig:DigestValue>JKp7O3nJZFur3iz47bJEBOgLAm3cZ8sX7BduPh5JxKc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,38 +103,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V2.exe" size="305552">
-      <assemblyIdentity name="PM.V2" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V3.exe" size="588176">
+      <assemblyIdentity name="PM.V3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SC+fAEWvMbZIVY7Z+muO6tqyV0wgQ1Zwi/hXRA5Af6Y=</dsig:DigestValue>
+        <dsig:DigestValue>NytN03FB4zWfowpzULB0DQD2ZiYmHWdgiwgzy9tFmMg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="asa-TZ\PM.V2.resources.dll" size="200192">
-      <assemblyIdentity name="PM.V2.resources" version="3.0.0.0" language="asa-TZ" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="asa-TZ\PM.V3.resources.dll" size="200192">
+      <assemblyIdentity name="PM.V3.resources" version="3.0.0.0" language="asa-TZ" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dixuP0wwlWxPDrwG/lwOP6Zz6yPOQkPQf0f0BOBXCPQ=</dsig:DigestValue>
+        <dsig:DigestValue>uUZ8J/ga00eUysMrwfBhGiLxR5+nd4MK+mKBsOYfftI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\PM.V2.resources.dll" size="201728">
-      <assemblyIdentity name="PM.V2.resources" version="3.0.0.0" language="ru" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\PM.V3.resources.dll" size="201728">
+      <assemblyIdentity name="PM.V3.resources" version="3.0.0.0" language="ru" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nXISrn8QRMideFLgjiXmrCEonN76eL/YvB97zsu3i1E=</dsig:DigestValue>
+        <dsig:DigestValue>RJtZ8MlUnrYt4oTRRd45G2GJhYU32llgX61GPhNwfP4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,13 +156,13 @@
       <dsig:DigestValue>HwhHizciM0PCyna6IfC1EFLKDLWA+FmCt7NxFGjOoGA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PM.V2.exe.config" size="1016">
+  <file name="PM.V3.exe.config" size="2180">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+Y69qXoABFQ5oZAXfQXhrbGnXs/M+U8yjgpC9FHDz4g=</dsig:DigestValue>
+      <dsig:DigestValue>VO7OJeTa5ryl7f3QdLr/r/kO9idzEamCkpfTx63QLfg=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

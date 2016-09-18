@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V2.exe" size="306064">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V2.exe" size="595856">
       <assemblyIdentity name="PM.V2" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HEAKym2PJzLpSzK9MvX9tIS2m3w6sXvZYejzxZzUccA=</dsig:DigestValue>
+        <dsig:DigestValue>HYtfv2rXDUkbRJo+t1kiqmxV9g3hGo0/VNeA3fsDFnY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -122,7 +122,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MJJEEzIshrcwL9PdzI69VZXVeZVRSkD1U3i2ujb2sYU=</dsig:DigestValue>
+        <dsig:DigestValue>2W3zScwEiXNbQEQnU3DrMIIc5mS/IbMgDppoxJ10KCo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PxC7+/mQMT0m3IgZ6k37ccJDDQFFLLhhDv3tefdbOPQ=</dsig:DigestValue>
+        <dsig:DigestValue>TMqWIuUcUpbDZIkX4/MwzotII4ysdjmSpvaNWAd3s/I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,13 +156,13 @@
       <dsig:DigestValue>HwhHizciM0PCyna6IfC1EFLKDLWA+FmCt7NxFGjOoGA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PM.V2.exe.config" size="1016">
+  <file name="PM.V2.exe.config" size="2180">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+Y69qXoABFQ5oZAXfQXhrbGnXs/M+U8yjgpC9FHDz4g=</dsig:DigestValue>
+      <dsig:DigestValue>VO7OJeTa5ryl7f3QdLr/r/kO9idzEamCkpfTx63QLfg=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
