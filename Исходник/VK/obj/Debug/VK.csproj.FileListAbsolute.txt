@@ -16,20 +16,6 @@ D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.Design.dll
 D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.dll
 D:\Project_Work\A_Project Developer\VK\bin\Debug\MetroFramework.Fonts.dll
 D:\Project_Work\A_Project Developer\VK\obj\Debug\VK.csprojResolveAssemblyReference.cache
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe.config
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe.manifest
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.application
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.exe
-D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V2.pdb
-D:\Project_Work\A_Project Developer\VK\bin\Debug\asa-TZ\PM.V2.resources.dll
-D:\Project_Work\A_Project Developer\VK\bin\Debug\ru\PM.V2.resources.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\asa-TZ\PM.V2.resources.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\ru\PM.V2.resources.dll
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.TrustInfo.xml
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe.manifest
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.application
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.exe
-D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V2.pdb
 D:\Project_Work\A_Project Developer\VK — копия\bin\Debug\PM.V2.exe.config
 D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\Interop.WMPLib.dll
 D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\AxInterop.WMPLib.dll
@@ -58,3 +44,17 @@ D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\ru\PM.V2.resourc
 D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.TrustInfo.xml
 D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.exe.manifest
 D:\Project_Work\A_Project Developer\VK — копия\obj\Debug\PM.V2.application
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V3.exe.config
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V3.exe.manifest
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V3.application
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V3.exe
+D:\Project_Work\A_Project Developer\VK\bin\Debug\PM.V3.pdb
+D:\Project_Work\A_Project Developer\VK\bin\Debug\asa-TZ\PM.V3.resources.dll
+D:\Project_Work\A_Project Developer\VK\bin\Debug\ru\PM.V3.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\asa-TZ\PM.V3.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\ru\PM.V3.resources.dll
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V3.TrustInfo.xml
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V3.exe.manifest
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V3.application
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V3.exe
+D:\Project_Work\A_Project Developer\VK\obj\Debug\PM.V3.pdb

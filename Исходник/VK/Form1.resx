@@ -6650,7 +6650,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 63</value>
+    <value>3, 63</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>335, 357</value>
@@ -6672,7 +6672,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>17</value>
   </data>
   <data name="listBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12.75pt</value>
@@ -6755,21 +6755,6 @@
   <data name="metroTabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
     <value>FlatButtons</value>
   </data>
-  <data name="metroCheckBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="metroCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 34</value>
-  </data>
-  <data name="metroCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 15</value>
-  </data>
-  <data name="metroCheckBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="metroCheckBox1.Text" xml:space="preserve">
-    <value>В случайном порядке</value>
-  </data>
   <data name="&gt;&gt;metroCheckBox1.Name" xml:space="preserve">
     <value>metroCheckBox1</value>
   </data>
@@ -6809,11 +6794,62 @@
   <data name="&gt;&gt;metroTabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="EditGroupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 197</value>
+  </data>
+  <data name="EditGroupButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="EditGroupButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="EditGroupButton.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;EditGroupButton.Name" xml:space="preserve">
+    <value>EditGroupButton</value>
+  </data>
+  <data name="&gt;&gt;EditGroupButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;EditGroupButton.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;EditGroupButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="IfUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IfUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 89</value>
+  </data>
+  <data name="IfUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 15</value>
+  </data>
+  <data name="IfUser.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="IfUser.Text" xml:space="preserve">
+    <value>Это страница пользователя</value>
+  </data>
+  <data name="&gt;&gt;IfUser.Name" xml:space="preserve">
+    <value>IfUser</value>
+  </data>
+  <data name="&gt;&gt;IfUser.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;IfUser.Parent" xml:space="preserve">
+    <value>metroTabPage2</value>
+  </data>
+  <data name="&gt;&gt;IfUser.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="InfoLabel7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="InfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 253</value>
+    <value>0, 263</value>
   </data>
   <data name="InfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
@@ -6831,10 +6867,10 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;InfoLabel7.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="metroButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 227</value>
+    <value>0, 231</value>
   </data>
   <data name="metroButton5.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 23</value>
@@ -6855,7 +6891,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroButton5.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="NameFileCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -6882,7 +6918,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;NameFileCheckBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="StatusLoadCount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -6906,7 +6942,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;StatusLoadCount.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="StatusLoad.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -6930,7 +6966,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;StatusLoad.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="metroButton4.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -6957,7 +6993,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroButton4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="metroProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 401</value>
@@ -6978,7 +7014,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroProgressBar1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="metroButton3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 372</value>
@@ -6990,7 +7026,7 @@
     <value>11</value>
   </data>
   <data name="metroButton3.Text" xml:space="preserve">
-    <value>Скачать всё загруженные песни</value>
+    <value>Скачать все загруженные песни</value>
   </data>
   <data name="&gt;&gt;metroButton3.Name" xml:space="preserve">
     <value>metroButton3</value>
@@ -7002,10 +7038,10 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroButton3.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="metroButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 178</value>
+    <value>212, 164</value>
   </data>
   <data name="metroButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 27</value>
@@ -7026,7 +7062,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroButton1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="metroLabel6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -7053,22 +7089,10 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroLabel6.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="GroupComboBox1.ItemHeight" type="System.Int32, mscorlib">
     <value>23</value>
-  </data>
-  <data name="GroupComboBox1.Items" xml:space="preserve">
-    <value>Perception of music</value>
-  </data>
-  <data name="GroupComboBox1.Items1" xml:space="preserve">
-    <value>Music for coding</value>
-  </data>
-  <data name="GroupComboBox1.Items2" xml:space="preserve">
-    <value>Rock|Рок</value>
-  </data>
-  <data name="GroupComboBox1.Items3" xml:space="preserve">
-    <value>British Music</value>
   </data>
   <data name="GroupComboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 176</value>
@@ -7089,13 +7113,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;GroupComboBox1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="metroLabel5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="metroLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 144</value>
+    <value>118, 138</value>
   </data>
   <data name="metroLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 25</value>
@@ -7116,13 +7140,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="CountTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 69</value>
+    <value>127, 60</value>
   </data>
   <data name="CountTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 23</value>
+    <value>172, 23</value>
   </data>
   <data name="CountTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -7137,13 +7161,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;CountTextBox.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="IDTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 16</value>
+    <value>127, 14</value>
   </data>
   <data name="IDTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 23</value>
+    <value>170, 23</value>
   </data>
   <data name="IDTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -7158,13 +7182,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;IDTextBox.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="metroLabel4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="metroLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 67</value>
+    <value>0, 58</value>
   </data>
   <data name="metroLabel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 25</value>
@@ -7185,13 +7209,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroLabel4.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="metroLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="metroLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 14</value>
+    <value>0, 12</value>
   </data>
   <data name="metroLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 25</value>
@@ -7212,13 +7236,13 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>19</value>
   </data>
   <data name="LoadCastomButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 107</value>
+    <value>174, 110</value>
   </data>
   <data name="LoadCastomButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 23</value>
+    <value>132, 23</value>
   </data>
   <data name="LoadCastomButton1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -7236,7 +7260,7 @@
     <value>metroTabPage2</value>
   </data>
   <data name="&gt;&gt;LoadCastomButton1.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="metroTabPage2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 47</value>
@@ -7261,15 +7285,6 @@
   </data>
   <data name="&gt;&gt;metroTabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="metroTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, 3</value>
-  </data>
-  <data name="metroTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>319, 439</value>
-  </data>
-  <data name="metroTextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;metroTextBox1.Name" xml:space="preserve">
     <value>metroTextBox1</value>
@@ -7326,13 +7341,61 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroTabControl1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="metroCheckBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="metroCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 15</value>
+  </data>
+  <data name="metroCheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="metroCheckBox1.Text" xml:space="preserve">
+    <value>В случайном порядке</value>
+  </data>
+  <data name="&gt;&gt;metroCheckBox1.Name" xml:space="preserve">
+    <value>metroCheckBox1</value>
+  </data>
+  <data name="&gt;&gt;metroCheckBox1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroCheckBox1.Parent" xml:space="preserve">
+    <value>metroTabPage1</value>
+  </data>
+  <data name="&gt;&gt;metroCheckBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 3</value>
+  </data>
+  <data name="metroTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 439</value>
+  </data>
+  <data name="metroTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;metroTextBox1.Name" xml:space="preserve">
+    <value>metroTextBox1</value>
+  </data>
+  <data name="&gt;&gt;metroTextBox1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTextBox1.Parent" xml:space="preserve">
+    <value>metroTabPage3</value>
+  </data>
+  <data name="&gt;&gt;metroTextBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="axWindowsMediaPlayer1.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="axWindowsMediaPlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 419</value>
+    <value>3, 415</value>
   </data>
   <data name="axWindowsMediaPlayer1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -7361,7 +7424,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>16</value>
   </data>
   <data name="metroButton2.Location" type="System.Drawing.Point, System.Drawing">
     <value>261, 34</value>
@@ -7385,7 +7448,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;metroButton2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>14</value>
   </data>
   <metadata name="backgroundWorkerDownLoad.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 15</value>
@@ -7393,12 +7456,6 @@
   <metadata name="metroContextMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>347, 15</value>
   </metadata>
-  <data name="fdgfdgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
-  </data>
-  <data name="fdgfdgToolStripMenuItem.Text" xml:space="preserve">
-    <value>Выход</value>
-  </data>
   <data name="metroContextMenu1.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 26</value>
   </data>
@@ -7408,9 +7465,363 @@
   <data name="&gt;&gt;metroContextMenu1.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroContextMenu, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
+  <data name="fdgfdgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="fdgfdgToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>512, 15</value>
   </metadata>
+  <data name="addPresetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 215</value>
+  </data>
+  <data name="addPresetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="addPresetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="addPresetButton.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="addPresetButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;addPresetButton.Name" xml:space="preserve">
+    <value>addPresetButton</value>
+  </data>
+  <data name="&gt;&gt;addPresetButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;addPresetButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addPresetButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 291</value>
+  </data>
+  <data name="DelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="DelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="DelButton.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DelButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DelButton.Name" xml:space="preserve">
+    <value>DelButton</value>
+  </data>
+  <data name="&gt;&gt;DelButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;DelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GetApiTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 120</value>
+  </data>
+  <data name="GetApiTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 23</value>
+  </data>
+  <data name="GetApiTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="GetApiTextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GetApiTextBox.Name" xml:space="preserve">
+    <value>GetApiTextBox</value>
+  </data>
+  <data name="&gt;&gt;GetApiTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;GetApiTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GetApiTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PresetTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 186</value>
+  </data>
+  <data name="PresetTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 23</value>
+  </data>
+  <data name="PresetTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="PresetTextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PresetTextBox.Name" xml:space="preserve">
+    <value>PresetTextBox</value>
+  </data>
+  <data name="&gt;&gt;PresetTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;PresetTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PresetTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CountApiTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 149</value>
+  </data>
+  <data name="CountApiTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 23</value>
+  </data>
+  <data name="CountApiTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CountApiTextBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CountApiTextBox2.Name" xml:space="preserve">
+    <value>CountApiTextBox2</value>
+  </data>
+  <data name="&gt;&gt;CountApiTextBox2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;CountApiTextBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CountApiTextBox2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PresetLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PresetLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 77</value>
+  </data>
+  <data name="PresetLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 25</value>
+  </data>
+  <data name="PresetLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="PresetLabel7.Text" xml:space="preserve">
+    <value>Добавление группы</value>
+  </data>
+  <data name="PresetLabel7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PresetLabel7.Name" xml:space="preserve">
+    <value>PresetLabel7</value>
+  </data>
+  <data name="&gt;&gt;PresetLabel7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;PresetLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PresetLabel7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="metroLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 118</value>
+  </data>
+  <data name="metroLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 25</value>
+  </data>
+  <data name="metroLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="metroLabel7.Text" xml:space="preserve">
+    <value>ID группы:</value>
+  </data>
+  <data name="metroLabel7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Name" xml:space="preserve">
+    <value>metroLabel7</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="metroLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 149</value>
+  </data>
+  <data name="metroLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="metroLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="metroLabel8.Text" xml:space="preserve">
+    <value>Кол-во постов</value>
+  </data>
+  <data name="metroLabel8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Name" xml:space="preserve">
+    <value>metroLabel8</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="IfUserCheckBoxADD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IfUserCheckBoxADD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 223</value>
+  </data>
+  <data name="IfUserCheckBoxADD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 15</value>
+  </data>
+  <data name="IfUserCheckBoxADD.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="IfUserCheckBoxADD.Text" xml:space="preserve">
+    <value>Это страница пользователя</value>
+  </data>
+  <data name="IfUserCheckBoxADD.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IfUserCheckBoxADD.Name" xml:space="preserve">
+    <value>IfUserCheckBoxADD</value>
+  </data>
+  <data name="&gt;&gt;IfUserCheckBoxADD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;IfUserCheckBoxADD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IfUserCheckBoxADD.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DelComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="DelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 285</value>
+  </data>
+  <data name="DelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 29</value>
+  </data>
+  <data name="DelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="DelComboBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DelComboBox.Name" xml:space="preserve">
+    <value>DelComboBox</value>
+  </data>
+  <data name="&gt;&gt;DelComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;DelComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GoodLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GoodLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 255</value>
+  </data>
+  <data name="GoodLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GoodLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;GoodLabel.Name" xml:space="preserve">
+    <value>GoodLabel</value>
+  </data>
+  <data name="&gt;&gt;GoodLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;GoodLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GoodLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DelGoodLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DelGoodLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 331</value>
+  </data>
+  <data name="DelGoodLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DelGoodLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;DelGoodLabel.Name" xml:space="preserve">
+    <value>DelGoodLabel</value>
+  </data>
+  <data name="&gt;&gt;DelGoodLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;DelGoodLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelGoodLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CloseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 375</value>
+  </data>
+  <data name="CloseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="CloseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="CloseButton.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="CloseButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Name" xml:space="preserve">
+    <value>CloseButton</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -8557,6 +8968,9 @@
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>344, 524</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>PM [Music for Coding]</value>

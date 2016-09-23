@@ -39,6 +39,8 @@
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
+            this.EditGroupButton = new MetroFramework.Controls.MetroButton();
+            this.IfUser = new MetroFramework.Controls.MetroCheckBox();
             this.InfoLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.NameFileCheckBox = new MetroFramework.Controls.MetroCheckBox();
@@ -57,13 +59,26 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.LoadCastomButton1 = new MetroFramework.Controls.MetroButton();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.backgroundWorkerDownLoad = new System.ComponentModel.BackgroundWorker();
             this.metroContextMenu1 = new MetroFramework.Controls.MetroContextMenu(this.components);
             this.fdgfdgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.addPresetButton = new MetroFramework.Controls.MetroButton();
+            this.DelButton = new MetroFramework.Controls.MetroButton();
+            this.GetApiTextBox = new MetroFramework.Controls.MetroTextBox();
+            this.PresetTextBox = new MetroFramework.Controls.MetroTextBox();
+            this.CountApiTextBox2 = new MetroFramework.Controls.MetroTextBox();
+            this.PresetLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.IfUserCheckBoxADD = new MetroFramework.Controls.MetroCheckBox();
+            this.DelComboBox = new MetroFramework.Controls.MetroComboBox();
+            this.GoodLabel = new MetroFramework.Controls.MetroLabel();
+            this.DelGoodLabel = new MetroFramework.Controls.MetroLabel();
+            this.CloseButton = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -145,6 +160,8 @@
             // 
             // metroTabPage2
             // 
+            this.metroTabPage2.Controls.Add(this.EditGroupButton);
+            this.metroTabPage2.Controls.Add(this.IfUser);
             this.metroTabPage2.Controls.Add(this.InfoLabel7);
             this.metroTabPage2.Controls.Add(this.metroButton5);
             this.metroTabPage2.Controls.Add(this.NameFileCheckBox);
@@ -170,6 +187,19 @@
             this.metroTabPage2.VerticalScrollbarBarColor = true;
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage2.VerticalScrollbarSize = 10;
+            // 
+            // EditGroupButton
+            // 
+            resources.ApplyResources(this.EditGroupButton, "EditGroupButton");
+            this.EditGroupButton.Name = "EditGroupButton";
+            this.EditGroupButton.UseSelectable = true;
+            this.EditGroupButton.Click += new System.EventHandler(this.EditGroupButton_Click);
+            // 
+            // IfUser
+            // 
+            resources.ApplyResources(this.IfUser, "IfUser");
+            this.IfUser.Name = "IfUser";
+            this.IfUser.UseSelectable = true;
             // 
             // InfoLabel7
             // 
@@ -235,11 +265,6 @@
             // 
             this.GroupComboBox1.FormattingEnabled = true;
             resources.ApplyResources(this.GroupComboBox1, "GroupComboBox1");
-            this.GroupComboBox1.Items.AddRange(new object[] {
-            resources.GetString("GroupComboBox1.Items"),
-            resources.GetString("GroupComboBox1.Items1"),
-            resources.GetString("GroupComboBox1.Items2"),
-            resources.GetString("GroupComboBox1.Items3")});
             this.GroupComboBox1.Name = "GroupComboBox1";
             this.GroupComboBox1.UseSelectable = true;
             // 
@@ -269,7 +294,7 @@
             this.IDTextBox.MaxLength = 30;
             this.IDTextBox.Name = "IDTextBox";
             this.IDTextBox.PasswordChar = '\0';
-            this.IDTextBox.PromptText = "ID группы";
+            this.IDTextBox.PromptText = "ID группы\\Пользователя";
             this.IDTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.IDTextBox.SelectedText = "";
             this.IDTextBox.UseSelectable = true;
@@ -304,6 +329,45 @@
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
+            // 
+            // metroTextBox1
+            // 
+            this.metroTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::VK.Properties.Settings.Default, "ND", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.metroTextBox1.Lines = new string[] {
+        "Вы пишите код? Вы рисуете? Играете?",
+        "Тогда почему бы не включить прекрасную музыку на фон?",
+        "",
+        "Ограничения на кол-во постов - не более 100. Это ограничение VK.",
+        "",
+        "Музыка скачивается в папку Music.",
+        "Она находится в той же директории, что и программа.",
+        "",
+        "",
+        "Как запускать с параметром?",
+        "Макет: \"Путь до программы\" \"Айди группы с -\" \"Кол-во постов загружать (Не более 1" +
+            "00)\"",
+        "Пример: \"D:\\VK\\R1.exe\" -74779558 80",
+        "Вы можете создать ярлык к программе и в его свойствах, после пути к файлу и допис" +
+            "ать id группы кол-во постов.",
+        "Если вы указали id, обязательно нужно указывать, какое кол-во постов загружать.",
+        "",
+        "Нашли баг? Пиши автору.",
+        "",
+        "Автор: vk.com/id208497682",
+        "",
+        "Обновление искать на github.com/egor2998067/Perception-of-music",
+        "",
+        "Для работы программы у Вас должен быть установлен windows media player."};
+            resources.ApplyResources(this.metroTextBox1, "metroTextBox1");
+            this.metroTextBox1.MaxLength = 32767;
+            this.metroTextBox1.Multiline = true;
+            this.metroTextBox1.Name = "metroTextBox1";
+            this.metroTextBox1.PasswordChar = '\0';
+            this.metroTextBox1.ReadOnly = true;
+            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.metroTextBox1.SelectedText = "";
+            this.metroTextBox1.Text = global::VK.Properties.Settings.Default.ND;
+            this.metroTextBox1.UseSelectable = true;
             // 
             // axWindowsMediaPlayer1
             // 
@@ -351,50 +415,122 @@
             this.backgroundWorker1.WorkerSupportsCancellation = true;
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
-            // metroTextBox1
+            // addPresetButton
             // 
-            this.metroTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::VK.Properties.Settings.Default, "ND", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.metroTextBox1.Lines = new string[] {
-        "Вы пишите код? Вы рисуете? Играете?",
-        "Тогда почему бы не включить прекрасную музыку на фон?",
-        "",
-        "Ограничения на кол-во постов - не более 100. Это ограничение VK.",
-        "",
-        "Музыка скачивается в папку Music.",
-        "Она находится в той же директории, что и программа.",
-        "",
-        "",
-        "Как запускать с параметром?",
-        "Макет: \"Путь до программы\" \"Айди группы с -\" \"Кол-во постов загружать (Не более 1" +
-            "00)\"",
-        "Пример: \"D:\\VK\\R1.exe\" -74779558 80",
-        "Вы можете создать ярлык к программе и в его свойствах, после пути к файлу и допис" +
-            "ать id группы кол-во постов.",
-        "Если вы указали id, обязательно нужно указывать, какое кол-во постов загружать.",
-        "",
-        "Нашли баг? Пиши автору.",
-        "",
-        "Автор: vk.com/id208497682",
-        "",
-        "Обновление искать на github.com/egor2998067/Perception-of-music",
-        "",
-        "Для работы программы у Вас должен быть установлен windows media player."};
-            resources.ApplyResources(this.metroTextBox1, "metroTextBox1");
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Multiline = true;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ReadOnly = true;
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.Text = global::VK.Properties.Settings.Default.ND;
-            this.metroTextBox1.UseSelectable = true;
+            resources.ApplyResources(this.addPresetButton, "addPresetButton");
+            this.addPresetButton.Name = "addPresetButton";
+            this.addPresetButton.UseSelectable = true;
+            this.addPresetButton.Click += new System.EventHandler(this.addPresetButton_Click);
+            // 
+            // DelButton
+            // 
+            resources.ApplyResources(this.DelButton, "DelButton");
+            this.DelButton.Name = "DelButton";
+            this.DelButton.UseSelectable = true;
+            this.DelButton.Click += new System.EventHandler(this.DelButton_Click);
+            // 
+            // GetApiTextBox
+            // 
+            this.GetApiTextBox.Lines = new string[0];
+            resources.ApplyResources(this.GetApiTextBox, "GetApiTextBox");
+            this.GetApiTextBox.MaxLength = 32767;
+            this.GetApiTextBox.Name = "GetApiTextBox";
+            this.GetApiTextBox.PasswordChar = '\0';
+            this.GetApiTextBox.PromptText = "ID группы\\Пользователя";
+            this.GetApiTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.GetApiTextBox.SelectedText = "";
+            this.GetApiTextBox.UseSelectable = true;
+            // 
+            // PresetTextBox
+            // 
+            this.PresetTextBox.Lines = new string[0];
+            resources.ApplyResources(this.PresetTextBox, "PresetTextBox");
+            this.PresetTextBox.MaxLength = 32767;
+            this.PresetTextBox.Name = "PresetTextBox";
+            this.PresetTextBox.PasswordChar = '\0';
+            this.PresetTextBox.PromptText = "Название в списке";
+            this.PresetTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PresetTextBox.SelectedText = "";
+            this.PresetTextBox.UseSelectable = true;
+            // 
+            // CountApiTextBox2
+            // 
+            this.CountApiTextBox2.Lines = new string[0];
+            resources.ApplyResources(this.CountApiTextBox2, "CountApiTextBox2");
+            this.CountApiTextBox2.MaxLength = 32767;
+            this.CountApiTextBox2.Name = "CountApiTextBox2";
+            this.CountApiTextBox2.PasswordChar = '\0';
+            this.CountApiTextBox2.PromptText = "Не более 100";
+            this.CountApiTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.CountApiTextBox2.SelectedText = "";
+            this.CountApiTextBox2.UseSelectable = true;
+            // 
+            // PresetLabel7
+            // 
+            resources.ApplyResources(this.PresetLabel7, "PresetLabel7");
+            this.PresetLabel7.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.PresetLabel7.Name = "PresetLabel7";
+            // 
+            // metroLabel7
+            // 
+            resources.ApplyResources(this.metroLabel7, "metroLabel7");
+            this.metroLabel7.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel7.Name = "metroLabel7";
+            // 
+            // metroLabel8
+            // 
+            resources.ApplyResources(this.metroLabel8, "metroLabel8");
+            this.metroLabel8.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel8.Name = "metroLabel8";
+            // 
+            // IfUserCheckBoxADD
+            // 
+            resources.ApplyResources(this.IfUserCheckBoxADD, "IfUserCheckBoxADD");
+            this.IfUserCheckBoxADD.Name = "IfUserCheckBoxADD";
+            this.IfUserCheckBoxADD.UseSelectable = true;
+            // 
+            // DelComboBox
+            // 
+            this.DelComboBox.FormattingEnabled = true;
+            resources.ApplyResources(this.DelComboBox, "DelComboBox");
+            this.DelComboBox.Name = "DelComboBox";
+            this.DelComboBox.UseSelectable = true;
+            // 
+            // GoodLabel
+            // 
+            resources.ApplyResources(this.GoodLabel, "GoodLabel");
+            this.GoodLabel.Name = "GoodLabel";
+            // 
+            // DelGoodLabel
+            // 
+            resources.ApplyResources(this.DelGoodLabel, "DelGoodLabel");
+            this.DelGoodLabel.Name = "DelGoodLabel";
+            // 
+            // CloseButton
+            // 
+            resources.ApplyResources(this.CloseButton, "CloseButton");
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.UseSelectable = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.DelGoodLabel);
+            this.Controls.Add(this.GoodLabel);
+            this.Controls.Add(this.DelComboBox);
+            this.Controls.Add(this.IfUserCheckBoxADD);
+            this.Controls.Add(this.metroLabel8);
+            this.Controls.Add(this.metroLabel7);
+            this.Controls.Add(this.PresetLabel7);
+            this.Controls.Add(this.CountApiTextBox2);
+            this.Controls.Add(this.PresetTextBox);
+            this.Controls.Add(this.GetApiTextBox);
+            this.Controls.Add(this.DelButton);
+            this.Controls.Add(this.addPresetButton);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroTabControl1);
             this.Controls.Add(this.axWindowsMediaPlayer1);
@@ -406,7 +542,6 @@
             this.Opacity = 0.95D;
             this.ShowIcon = false;
             this.Style = MetroFramework.MetroColorStyle.Green;
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.metroTabControl1.ResumeLayout(false);
@@ -418,6 +553,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.metroContextMenu1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -456,6 +592,21 @@
         private MetroFramework.Controls.MetroButton metroButton5;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private MetroFramework.Controls.MetroLabel InfoLabel7;
+        private MetroFramework.Controls.MetroCheckBox IfUser;
+        private MetroFramework.Controls.MetroButton EditGroupButton;
+        private MetroFramework.Controls.MetroButton addPresetButton;
+        private MetroFramework.Controls.MetroButton DelButton;
+        private MetroFramework.Controls.MetroTextBox GetApiTextBox;
+        private MetroFramework.Controls.MetroTextBox PresetTextBox;
+        private MetroFramework.Controls.MetroTextBox CountApiTextBox2;
+        private MetroFramework.Controls.MetroLabel PresetLabel7;
+        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroLabel metroLabel8;
+        private MetroFramework.Controls.MetroCheckBox IfUserCheckBoxADD;
+        private MetroFramework.Controls.MetroComboBox DelComboBox;
+        private MetroFramework.Controls.MetroLabel GoodLabel;
+        private MetroFramework.Controls.MetroLabel DelGoodLabel;
+        private MetroFramework.Controls.MetroButton CloseButton;
     }
 }
 
