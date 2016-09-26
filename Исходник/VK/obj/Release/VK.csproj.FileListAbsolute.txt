@@ -18,7 +18,6 @@ D:\Project_Work\A_Project Developer\VK\obj\Release\VK.Properties.Resources.resou
 D:\Project_Work\A_Project Developer\VK\obj\Release\VK.Form1.asa-TZ.resources
 D:\Project_Work\A_Project Developer\VK\obj\Release\VK.Form1.ru.resources
 D:\Project_Work\A_Project Developer\VK\obj\Release\VK.csproj.GenerateResource.Cache
-D:\Project_Work\A_Project Developer\VK\obj\Release\VK.csprojResolveAssemblyReference.cache
 D:\Project_Work\A_Project Developer\VK\bin\Release_V2\PM.V3.exe.config
 D:\Project_Work\A_Project Developer\VK\bin\Release_V3\PM.V3.exe.config
 D:\Project_Work\A_Project Developer\VK\bin\Release_V3\PM.V3.exe.manifest

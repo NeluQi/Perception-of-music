@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V3.exe" size="608656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PM.V3.exe" size="608144">
       <assemblyIdentity name="PM.V3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>x8suwO0wIEARwVSChWy7AxQRZ1khTf+8N1Zkp+OS8ew=</dsig:DigestValue>
+        <dsig:DigestValue>oIA1sP5X67xH7QLW5TF9ipbQkuBMSok4h0fpkoeuxH8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -122,7 +122,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>P6Q9vmja0LPC9VK75KDx2LmnOkZ5NBIEV6o55quJ2Ro=</dsig:DigestValue>
+        <dsig:DigestValue>xx1huaQHQ3X1MrO9Csd2lDSvHp8g2d856iD3I5mVRx0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bgTCfL0XS3Ytf0CGZRhBsLKGWhFjRTadHQrObmGHmZ0=</dsig:DigestValue>
+        <dsig:DigestValue>JxBsOW7nZM2FD7o0YTt1JjpGGD1NZWSZZ9AZBjfMx5Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

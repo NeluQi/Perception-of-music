@@ -12,9 +12,7 @@ namespace VK
 {
     public partial class Form1 : MetroForm
     {
-        public static string getapi; // Готовый запрос
-        public static string paramid; // Часть запроса (Айди)
-        public static string paramc; // Часть запроса (кол во постов)
+        public static string getapi, paramid, paramc, namedir; // Готовый запрос
         public List<PresetGroupList> ListPreset = new List<PresetGroupList>();
 
         public Form1(string[] args)
@@ -36,10 +34,12 @@ namespace VK
             getapi = "https://api.vk.com/method/wall.get.xml?owner_id=" + paramid + "&count=" + paramc; //создание запроса
             notifyIcon1.ContextMenuStrip = metroContextMenu1;
             LoadMusic(getapi);
+            listBox1.Focus();
+            namedir = "Perception of music";
 
 
             ////Первый запуск\Загрузка настр
-            try ////Сохр настр 
+            try ////загрузка настр 
             {
                 XmlSerializer ser = new XmlSerializer(typeof(List<PresetGroupList>));
                 string path = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\PM Music\Preset.cfg";
@@ -78,6 +78,7 @@ namespace VK
                 GroupComboBox1.Items.Add(ListPreset[i].Name);
                 DelComboBox.Items.Add(ListPreset[i].Name);
             }
+
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -95,6 +96,7 @@ namespace VK
             {
                 LoadMusic(ListPreset[GroupComboBox1.SelectedIndex].DoneAPI);
                 metroLabel3.Text = "Group: " + ListPreset[GroupComboBox1.SelectedIndex].Name;
+                namedir = ListPreset[GroupComboBox1.SelectedIndex].Name;
 
             }
             catch { MessageBox.Show("Ошибка"); }
@@ -106,7 +108,7 @@ namespace VK
             {
                 addPresetButton.Enabled = false;
                 double num = 0.0;
-                if (PresetTextBox.Text != "" && GetApiTextBox.Text != "" && CountApiTextBox2.Text != "" && double.TryParse(CountApiTextBox2.Text, out num) && double.TryParse(GetApiTextBox.Text, out num))
+                    if (PresetTextBox.Text != "" && GetApiTextBox.Text != "" && CountApiTextBox2.Text != "" && double.TryParse(CountApiTextBox2.Text, out num) && double.TryParse(GetApiTextBox.Text, out num))
                 {
                     PresetGroupList TempPreset = new PresetGroupList();
                     TempPreset.Name = PresetTextBox.Text;
@@ -125,6 +127,7 @@ namespace VK
                     SaveFillPreset();
                     GoodLabel.Text = "Добавлено: " + TempPreset.Name;
                     addPresetButton.Enabled = true;
+
 
                 }
                 else MessageBox.Show("Введите правильные данные!"); addPresetButton.Enabled = true;
@@ -202,6 +205,7 @@ namespace VK
                     }
 
                 }
+                namedir = IDTextBox.Text;
                 metroLabel3.Text = "";
                 if (IDTextBox.Text == "35193970") { metroLabel3.Text = "Group: Perception of music"; }
                 if (IDTextBox.Text == "74779558") { metroLabel3.Text = "Group: Music for coding"; }
@@ -268,60 +272,51 @@ namespace VK
         {
             try
             {
-                string DownLoad = Directory.GetCurrentDirectory() + "\\Music\\" + DateTime.Today.ToString("d") + " id " + paramid;
+                string DownLoad = Directory.GetCurrentDirectory() + "\\Music\\" + DateTime.Today.ToString("d") + "{" + namedir.Trim() + "}";
                 Directory.CreateDirectory(DownLoad);
+
                 foreach (FileInfo file in new DirectoryInfo(DownLoad).GetFiles())
                 {
                     file.Delete();
                 }
+
                 WebClient webClient = new WebClient();
-                int fullload = 0;
-                foreach (String uu in urlmusic)
-                {
-                    if (backgroundWorkerDownLoad.CancellationPending) { break; }
-                    foreach (String ur in Namemusic)
+                bool NameFile = false;
+                if (NameFileCheckBox.Checked == true) NameFile = true;
+                    for (int i = 0; i <= urlmusic.Count;) {
+                    if (backgroundWorkerDownLoad.CancellationPending)
                     {
-                        try
-                        {
-                            if (NameFileCheckBox.Checked == true) { webClient.DownloadFile(uu, DownLoad + "\\" + fullload + ". " + ur + ".mp3"); }
-                            if (NameFileCheckBox.Checked == false) { webClient.DownloadFile(uu, DownLoad + "\\" + ur + ".mp3"); }
-                        }
-                        catch { fullload--; }
-
-                        fullload++;
-                        int owerload = urlmusic.Count - fullload;
-                        if (owerload <= 0) { backgroundWorkerDownLoad.CancelAsync(); }
-                        Action action = () =>
-                        {
-                            metroProgressBar1.Minimum = 0;
-                            metroProgressBar1.Maximum = urlmusic.Count;
-                            metroProgressBar1.Step = 1;
-                            metroProgressBar1.PerformStep();
-                            StatusLoad.Text = "Загружаю: " + ur;
-                            StatusLoadCount.Text = "Осталось: " + owerload.ToString();
-                        };
-                        Invoke(action);
-
-                        if (backgroundWorkerDownLoad.CancellationPending)
-                        {
-                            Action actionend = () =>
-                            {
-                                metroProgressBar1.Value = 0;
-                                StatusLoad.Text = "";
-                                StatusLoadCount.Text = "";
-                            };
-                            Invoke(actionend);
-                            break;
-                        }
+                        break;
                     }
+
+                    if (NameFile == true) {
+                        webClient.DownloadFile(urlmusic[i], DownLoad + "\\" + i + ". " + Namemusic[i] + ".mp3");
+                    }
+                    else {
+                        webClient.DownloadFile(urlmusic[i], DownLoad + "\\" + Namemusic[i] + ".mp3");
+                    }
+                    Action action = () =>
+                    {
+                        metroProgressBar1.Minimum = 0;
+                        metroProgressBar1.Maximum = urlmusic.Count;
+                        metroProgressBar1.Step = 1;
+                        metroProgressBar1.PerformStep();
+                        StatusLoad.Text = "Загружаю: " + Namemusic[i];
+                        StatusLoadCount.Text = "Осталось: " + (urlmusic.Count - i).ToString();
+                    };
+                    Invoke(action);
+                    i++;
                 }
             }
-            catch { MessageBox.Show("Ошибка загрузки (backgroundrDownLoad ERROR)"); }
+            catch { MessageBox.Show("Ошибка загрузки"); }
         }
 
         ///Поток скачки конец
         private void backgroundWorkerDownLoad_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            metroProgressBar1.Value = 0;
+            StatusLoad.Text = "";
+            StatusLoadCount.Text = "";
             metroButton3.Enabled = true;
             LoadCastomButton1.Enabled = true;
             metroButton1.Enabled = true;
@@ -445,8 +440,8 @@ namespace VK
         private WMPLib.IWMPMedia Media;
         public void LoadMusic(string GetMusic)
         {
-            try
-            {
+           try
+           {
                 listBox1.Items.Clear();
                 Namemusic.Clear();
                 urlmusic.Clear();
@@ -454,6 +449,7 @@ namespace VK
                 doc.Load(new XmlTextReader(GetMusic));
                 var audioTags = doc.SelectNodes("//audio");
                 PlayList = axWindowsMediaPlayer1.playlistCollection.newPlaylist("vkPlayList");
+                int id = 0;
                 foreach (XmlNode audioTag in audioTags)
                 {
                     string artist = "";
@@ -462,19 +458,31 @@ namespace VK
                     if (audioTag["artist"] != null) artist = audioTag["artist"].InnerText;
                     if (audioTag["title"] != null) title = audioTag["title"].InnerText;
                     if (audioTag["url"] != null) { url = audioTag["url"].InnerText; url = url.Split('?')[0]; }
+                    if(url != "") { 
                     Media = axWindowsMediaPlayer1.newMedia(url);
+                    if (Media.isReadOnlyItem("title") == false) Media.setItemInfo("title", title);
+                    if (Media.isReadOnlyItem("artist") == false) Media.setItemInfo("artist", artist);
+                    if (Media.isReadOnlyItem("Id") == false) Media.setItemInfo("Id", id.ToString());
                     PlayList.appendItem(Media);
                     listBox1.Items.Add(artist + " – " + title);
                     urlmusic.Add(url);
                     Namemusic.Add(artist + " – " + title);
-                }
+                    id++;
+                    }
+            }
                 axWindowsMediaPlayer1.currentPlaylist = PlayList;
                 metroLabel2.Text = "Load " + listBox1.Items.Count.ToString() + " items.";
-            }
-            catch { MessageBox.Show("Ошибка загрузки (LoadMusic ERROR)"); }
+          }
+
+           catch { MessageBox.Show("Ошибка загрузки (LoadMusic ERROR)"); }
         }
-
-
-
+       
+        //АвтоВыбор песни, которая играет
+        private void axWindowsMediaPlayer1_CurrentItemChange(object sender, AxWMPLib._WMPOCXEvents_CurrentItemChangeEvent e)
+        {
+            if (!listBox1.ContainsFocus) {
+                listBox1.SetSelected(int.Parse(axWindowsMediaPlayer1.currentMedia.getItemInfo("Id")), true);
+            }
+        }
     }
 }
