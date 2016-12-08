@@ -190,7 +190,7 @@ namespace VK
         {
             try
             {
-                //Хуева туча проверок. Работает и норм
+                //Много проверок. Работает и норм
                 double num = 0.0;
                 if (IDTextBox.Text != "" && CountTextBox.Text != "" && double.TryParse(CountTextBox.Text, out num) && double.TryParse(IDTextBox.Text, out num))
                 {
